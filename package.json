@@ -1,0 +1,16 @@
+{
+  "name": "prod-cat",
+  "version": "1.1.0",
+  "description": "Produktkatalog",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^4",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "sqlite3": "^5"
+  },
+  "scripts": {
+    "start": "npx cds run"
+  }
+}
