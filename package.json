@@ -3,8 +3,9 @@
   "version": "1.1.0",
   "description": "Produktkatalog",
   "private": true,
+  "cds.features.fiori_preview":true,
   "dependencies": {
-    "@sap/cds": "^4",
+    "@sap/cds": "^8",
     "express": "^4"
   },
   "devDependencies": {
