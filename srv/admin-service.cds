@@ -1,5 +1,6 @@
 using my.domain from '../db/schema';
 
+@requires: 'admin'
 @path: '/admin'
 service AdminService {
   entity Products as projection on domain.Products;
