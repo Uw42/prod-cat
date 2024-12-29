@@ -5,12 +5,17 @@
   "dependencies": {
     "@sap/cds": "^8",
     "express": "^4",
-    "passport": "^0.4.1"
+    "passport": "^0.4.1",
+    "@sap/hana-client": "^2.23.24"
+  },
+  "engines": {
+    "node": "^20.0.0"
   },
   "scripts": {
     "start": "npx cds run"
   },
   "devDependencies": {
+    "@sap/ux-specification": "^1.124.7",
     "sqlite3": "^5"
   },
   "cds": {
@@ -31,7 +36,11 @@
             ]
           }
         }
-      }
+      },
+      "db": "hana"
     }
-  }
+  },
+  "sapux": [
+    "app/admin"
+  ]
 }
